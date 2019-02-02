@@ -70,4 +70,4 @@ export class BST {
         inOrder(node.right)
     }
     
-}
+} 
