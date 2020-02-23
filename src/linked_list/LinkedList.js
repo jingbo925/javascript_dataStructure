@@ -81,7 +81,7 @@ export class LinkedList {
     let nextNode = null
     while (currNode) {
       nextNode = currNode.next
-      currNode = prevNode
+      currNode.next = prevNode
       prevNode = currNode
       currNode = nextNode
     }
